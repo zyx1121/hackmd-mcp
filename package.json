@@ -1,0 +1,38 @@
+{
+  "name": "@zyx1121/hackmd-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for HackMD — list, read, create, update, and delete notes via Claude Code",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "hackmd-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "hackmd",
+    "markdown",
+    "notes",
+    "claude"
+  ],
+  "author": "zyx1121",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

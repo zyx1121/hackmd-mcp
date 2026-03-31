@@ -1,6 +1,6 @@
 {
   "name": "@zyx1121/hackmd-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for HackMD — list, read, create, update, and delete notes via Claude Code",
   "type": "module",
   "main": "./dist/index.js",

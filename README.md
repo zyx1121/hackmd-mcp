@@ -4,7 +4,14 @@ MCP server for HackMD — list, read, create, update, and delete notes via Claud
 
 ## Setup
 
-Set your HackMD API token:
+### 1. Get API Token
+
+1. 登入 [HackMD](https://hackmd.io)
+2. 進入 [Settings → API](https://hackmd.io/settings#api)
+3. 點 **Create API token**，取一個名稱
+4. 複製 token（關掉視窗後就看不到了）
+
+### 2. Configure MCP
 
 ```json
 {
@@ -19,8 +26,6 @@ Set your HackMD API token:
   }
 }
 ```
-
-Get your token from [HackMD Settings → API](https://hackmd.io/settings#api).
 
 ## Tools
 

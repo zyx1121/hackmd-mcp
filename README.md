@@ -43,3 +43,7 @@ MCP server for HackMD — list, read, create, update, and delete notes via Claud
 | `create_team_note` | Create a note in a team |
 | `update_team_note` | Update a team note |
 | `delete_team_note` | Delete a team note |
+
+## License
+
+[MIT](LICENSE.md) — Note to self.
